@@ -1,0 +1,41 @@
+*
+{
+	background-color: #102c45;
+}
+
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: gray;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    box-sizing: border-box;
+  }
+  .boton:hover{
+    color: gray;
+    background-color: #ffffff;
+  }
+
+  p
+  {
+  	text-align: center;
+  	font-size: 50px;
+  	font-family: sans-serif;
+  	color:#ffff;
+  	text-shadow: 5px 7px 0px gray;
+  }
+
+.titulo
+  {
+  	color: #fff;
+  	font-family: sans-serif;
+  	text-shadow: 5px 5px 0px gray;
+  }
+  h3
+  {
+  	color:#ffff;
+  }
+  

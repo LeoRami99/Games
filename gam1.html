@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puente</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<style type="text/css">
+body {
+    overflow: hidden;
+}
+/* preloader */
+#preloader {
+    position: fixed;
+    top:0; left:0;
+    right:0; bottom:0;
+    background: #000;
+    z-index: 100;
+}
+#loader {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:50%; top:50%;
+    background: url(loader.gif) no-repeat center 0;
+    margin:-50px 0 0 -50px;
+}
+</style>
+</head>
+<body>
+	<a href="index.html" class="boton">Inicio</a>
+		<br><center><h1 class="titulo">Ranas</h1></center>
+					<center><object type="application/x-shockwave-flash" 
+			width="740" height="470" data="ranitas.swf">
+			<param name="movie" value="ranitas.swf"></object></center>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(window).load(function() {
+		$('#preloader').fadeOut('slow');
+		$('body').css({'overflow':'visible'});
+	})
+	</script>
+
+</body>
+</html>
